@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#Food{
+    display: flex;
+    margin-bottom: 5%;    
+}
+.Food-Network{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.Food-Network img{
+    width: 100%;
+}
+.text-color{
+    color: chocolate;
+}
+.link-color{
+    padding: 10px 40px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, cyan);
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+}
+#About-Me{
+    display: flex;
+    background-image: url(images/7.png);
+}
+.About-Me-Part{
+    width: 50%;
+    padding-right: 5%;
+     
+}
+.About-Me-Part img{
+    width: 100%;
+    padding-left: 5%;
+}
+footer{
+    text-align: center;
+}
+.Recipies-Part{
+    display: flex;
+}
+footer h1{
+    color: cyan;
+}
+#Pizza{
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image-slice: ;
+    padding: 10px;
+    border-image: linear-gradient(360deg, white, white);
+}
+#Burger{
+    border-left: 7px solid;
+    border-image-slice: ;
+    padding: 10px;
+    border-radius: 10px;
+    border-image: linear-gradient(360deg, white, white);
+}
+#Buffalo-Wings{
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(360deg, white, white);
+    padding: 10px;
+    border-radius: 10px;
+}
+.Recipies-Part div{
+    box-shadow: 5px 7px 40px cornflowerblue;
+    height: 80%;
+    margin: 15px;
+    
+}
+.Recipies-Part div img{
+    width: 100%;
+}
